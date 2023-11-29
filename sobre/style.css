@@ -40,31 +40,7 @@ li a:hover:after{
     width: 100%;
 }
 
-button{
-    font-family: Kumbh Sans;
-    padding: 10px;
-}
 
-.buttom-g{
-    background-color: gray;
-    width: 90px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-.buttom-g:hover{
-    background-color:#ffbf00;
-    transition: 0.3s;
-    cursor:pointer;
-}
 
 input{
     width: 270px;
@@ -185,4 +161,22 @@ cursor:pointer;
     background-color:#ffbf00;
     transition: 0.3s;
     cursor:pointer;
+}
+.zoom-wrapper {
+    height: 200px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 16px;
+    cursor:pointer;
+}
+.zoom-wrapper img {
+    object-fit: cover;
+    transition: 0.8s;
+    height: 100%;
+}
+.zoom-wrapper:hover img {
+    transform: scale(1.5);
+}
+hr {
+    width: 160px;
 }
