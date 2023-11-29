@@ -1,0 +1,81 @@
+body{
+    font-family: Kumbh Sans;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: gray;
+}
+
+li a:after{
+    content: "";
+    position: absolute;
+    transition: 0.4s;
+    background-color: #ffbf00;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+li a:hover{
+    color: #fcd04f;
+}
+
+li a:hover:after{
+    width: 100%;
+}
+
+button{
+    font-family: Kumbh Sans;
+    padding: 10px;
+}
+
+.buttom-g{
+    background-color: gray;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.buttom-g:hover{
+    background-color:#ffbf00;
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+input{
+    width: 270px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    font-size: 20px;
+}
+
+hr{
+    height: 2px;
+    width: 1020px;
+    border: none;
+    background-color: hsla(0, 2%, 88%, 0.541);
+    margin-left: 15px;
+}
